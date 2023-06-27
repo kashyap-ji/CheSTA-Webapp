@@ -1,14 +1,15 @@
 import React from "react";
-
-function messageUs(){
+import './footerStyle.css';
+function MessageUs(){
 
     return(
         <div>
+            <div className="header">Message Us</div>
             <form action="" method="post">
-                <input type="text" name="message" id="message" placeholder="Message" />
-                <button type="sumit">Submit</button>
+                <input type="text" name="message" id="message" placeholder="Message" className="box" />
+                <button type="sumit" className="Button">Submit</button>
             </form>
         </div>
     )
 };
-export default messageUs;
+export default MessageUs;
