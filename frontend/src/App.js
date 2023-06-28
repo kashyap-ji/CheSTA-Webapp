@@ -1,11 +1,10 @@
-// import Footer from "./components/footer/footer";
+import Header from "./components/header/header";
 
 function App() {
   return (
-      <div>
-        {/* <Footer /> */}
-          <h1>Welcome to chesta</h1>
-      </div>
+    <div>
+      <Header />
+    </div >
   );
 }
 

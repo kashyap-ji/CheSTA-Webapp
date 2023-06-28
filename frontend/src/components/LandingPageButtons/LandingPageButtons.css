@@ -1,0 +1,16 @@
+.LandingPage-Buttons {
+    background-color: #010922;
+    color: white;
+    border: 2px solid;
+    padding: 1em 2em 1em;
+    font-size: 1em;
+    transition: all 0.25s;
+    border-radius: 25px;
+}
+
+.LandingPage-Buttons:hover {
+    color: whiter;
+    box-shadow: 0px 0.5em 0.5em 0.2em azure;
+    transform: translateY(-0.15em);
+
+}

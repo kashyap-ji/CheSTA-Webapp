@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap');
+
+body {
+  background-color: #010922;
+}
+
+.HeaderLogos {
+  height: 50px;
+
+}
+
+.Buttonsgroup {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.ChestaTitle {
+  display: inline;
+  font-size: 2em;
+  font-family: 'Outfit', sans-serif;
+  color: #fdfffc;
+}
+
+.ChestaTitle_s {
+  display: inline;
+  font-size: 2em;
+  font-family: 'Outfit', sans-serif;
+  color: #13B7A5;
+}
