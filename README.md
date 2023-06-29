@@ -5,10 +5,10 @@ CheSTA (Chemical Science & Technology Association) is an organization of student
 
 ## Installation 
 
-To make a contribution, clone the project in local by running 
+To make a contribution, clone the project locally by running these command in teminal 
 
 ```bash
-  git clone 
+  git clone git@github.com:Anand-shreya/CheSTA-Webapp.git
   cd cheSTA Webapp
   npm install
 ```
