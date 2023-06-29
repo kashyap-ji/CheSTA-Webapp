@@ -1,0 +1,9 @@
+.LandingPage-Buttons {
+    background-color: #010922;
+    color: white;
+    border: 1px solid;
+    padding: 1em 2em 1em;
+    font-size: 1em;
+    transition: all 0.25s;
+    border-radius: 25px;
+}

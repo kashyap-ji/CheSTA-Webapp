@@ -1,11 +1,11 @@
-// import Footer from "./components/footer/footer";
-
+import Header from "./components/header/header";
+import './App.css'
 function App() {
   return (
-      <div>
-        {/* <Footer /> */}
-          <h1>Welcome to chesta</h1>
-      </div>
+    <div className="LandingPageContainer">
+
+      <Header />
+    </div >
   );
 }
 
