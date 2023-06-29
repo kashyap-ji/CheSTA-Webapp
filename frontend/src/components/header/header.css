@@ -1,19 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Slab&display=swap');
 
 body {
+  /* header Body*/
   background-color: #010922;
 }
 
-.HeaderLogos {
-  height: 50px;
-
-}
-
-.Buttonsgroup {
+.HeaderContainer {
+  /* Container coantaining all componets og header--*/
   display: flex;
+  flex-direction: column;
+  gap: 2em;
   justify-content: space-evenly;
+  align-items: left;
+}
+
+/* Logo Section*/
+.HeaderLogoContainer {
+  display: flex;
+  justify-content: left;
+  gap: 4em;
+  flex-direction: row;
+}
+
+.HeaderLogos {
+  height: 90px;
 
 }
+
+/* CheSTA Title Section*/
 
 .ChestaTitle {
   display: inline;
@@ -27,4 +43,31 @@ body {
   font-size: 2em;
   font-family: 'Outfit', sans-serif;
   color: #13B7A5;
+}
+
+/* Buttons Section*/
+
+.Buttonsgroup {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+/* Intro Section */
+.AboutSection {
+  display: flex;
+  /* border: medium solid white; */
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em 5em 1em;
+}
+
+.AboutTitle {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+.AboutContent {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
 }
