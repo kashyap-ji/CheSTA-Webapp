@@ -2,8 +2,10 @@
     background-color: #010922;
     color: white;
     border: 1px solid;
-    padding: 1em 2em 1em;
-    font-size: 1em;
+    padding: 1em 2vw 1em;/*just replace em in place of vw*/
+    font-size: 1vw; /*Changed to vw just for now*/
     transition: all 0.25s;
     border-radius: 25px;
+    min-width: 9vw;
+    white-space: nowrap;
 }
