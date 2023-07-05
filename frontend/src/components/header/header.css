@@ -49,8 +49,8 @@ body {
 
 .Buttonsgroup {
   display: flex;
-  justify-content: space-evenly;
-
+  justify-content: center;
+  gap: 6em;
 }
 
 /* Intro Section */
