@@ -16,7 +16,7 @@ function App() {
         {/* <Student_profile/> */}
         {/* <About></About> */}
         <LandingPage></LandingPage>
-      </div>
+    </div>
   );
 }
 

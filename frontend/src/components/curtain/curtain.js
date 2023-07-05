@@ -37,7 +37,7 @@ function Curtain(props) {
             <LandingPageButttons title='Gallery'></LandingPageButttons>
             <LandingPageButttons title='Contact'></LandingPageButttons>
         </div>
-        </div>
+    </div>
   );
 }
 
