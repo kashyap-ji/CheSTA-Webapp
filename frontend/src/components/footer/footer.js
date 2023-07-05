@@ -11,7 +11,7 @@ function Footer(){
         <QuickLinks/>
         <Contact/>
         <MessageUs/>
-        </div>
+       </div>
     )
 }
 export default Footer;

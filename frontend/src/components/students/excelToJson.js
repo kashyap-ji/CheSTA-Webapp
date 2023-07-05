@@ -22,6 +22,7 @@ sheet_name_list.forEach(function(y){
         if(!data[row])data[row]={};
         data[row][headers[col]]=value;
     }
+    
     data.shift();
     data.shift();
     console.log(data);

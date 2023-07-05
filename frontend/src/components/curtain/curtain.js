@@ -1,5 +1,5 @@
 import LandingPageButttons from '../LandingPageButtons/LandingPageButtons';
-import '../header/header.css';
+import '../LandingScreen/LandingScreen.css';
 import './curtain.css';
 import ChestaLogo from '../Images/Logos/ChestaLogo.png';
 import IITGLogo from '../Images/Logos/IITGLogo.png';
@@ -29,9 +29,9 @@ function Curtain(props) {
             </div>
         </div>
 
-        <div className='Buttonsgroup'>
+        <div className='ButtonsGroupCurtain'>
             <div className='oval-button'>
-            <LandingPageButttons title='BRs' active='active'></LandingPageButttons>
+            <LandingPageButttons title='BRs'></LandingPageButttons>
             </div>
             <LandingPageButttons title='Coming Soon'></LandingPageButttons>
             <LandingPageButttons title='Gallery'></LandingPageButttons>
