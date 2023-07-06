@@ -2,40 +2,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Slab&display=swap');
 
-body{
-  /* header Body*/
-  background-color: #010922;
-}
 
 .HeaderContainer {
   /* Container coantaining all componets og header--*/
+  background-image: url(../Images/background/LandingScreenBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   gap: 13vh;
-  justify-content: space-evenly;
-  align-items: left;
-  padding-top: 10vh;
+  height: 100vh;
+  /* align-items: left; */
+  /* width:100vw; */
 }
 
 /* Logo Section*/
-.HeaderLogoContainer {
+.Logo{
+  width:90px;
+  position: relative;
+  top:3vw;
+  left: 3vw;
+}
+
+/* CheSTA Text Title Section*/
+.blur{
+  width: 80vw;
+  height: 372px;
+  flex-shrink: 0;
+  border-radius: 31px;
+  background: rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 24px 15px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+}
+
+.Text-box{
+  width: 80vw;
+  height:372px;
+  position: relative;
+  left:10vw;
+  bottom: 7vh;
+}
+
+.HeaderMiddleBlock{
+  width: 80vw;
   display: flex;
-  justify-content: left;
-  gap: 2em;
-  height:105px;
-  flex-direction: row;
+  /* justify-content: space-around; */
+  gap:10vw;
+  position: relative;
+  bottom:320px;
+  padding-left: 8vw;
+  padding-right: 1vw;
 }
-
-.HeaderLogos {
-  height: 90px;
-
-}
-
-/* CheSTA Title Section*/
 
 .ChestaTitle {
   display: inline;
-  font-size: 70px;
+  font-size: 65px;
   font-family: 'Outfit', sans-serif;
   color: #fdfffc;
   font-weight: 800;
@@ -43,7 +65,7 @@ body{
 
 .ChestaTitle_s {
   display: inline;
-  font-size: 70px;
+  font-size: 65px;
   font-family: 'Outfit', sans-serif;
   color: #13B7A5;
   font-weight: 800;
@@ -55,11 +77,9 @@ body{
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  left:-4vw;
+  bottom:10vh;
   gap:6vw;
 }
 .chestaLogo{
-  height: 140px;
-  position: relative;
-  top:-30px;
+  height: 300px;
 }
