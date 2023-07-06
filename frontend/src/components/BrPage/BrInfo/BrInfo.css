@@ -1,4 +1,4 @@
-.mainContainer {
+.BRContainer {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -7,15 +7,13 @@
     height: 246px;
     flex-shrink: 0;
     border-radius: 20px;
-    border: 2px solid rgba(19, 183, 164, 0.383);
-    ;
     transition: 0.65s;
+    background: rgba(19, 183, 165, 0.10);
 }
 
-.mainContainer:hover {
+.BRContainer:hover {
     box-shadow: 0px 25px 45px black;
     transform: translateY(-10px);
-
 }
 
 .infoContainer {

@@ -30,9 +30,9 @@ function Curtain(props) {
         </div>
 
         <div className='ButtonsGroupCurtain'>
-            <div className='oval-button'>
+            {/* <div className='oval-button'> */}
             <LandingPageButttons title='BRs'></LandingPageButttons>
-            </div>
+            {/* </div> */}
             <LandingPageButttons title='Coming Soon'></LandingPageButttons>
             <LandingPageButttons title='Gallery'></LandingPageButttons>
             <LandingPageButttons title='Contact'></LandingPageButttons>

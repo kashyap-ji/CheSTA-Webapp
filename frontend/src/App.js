@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import LandingScreen from "./components/LandingScreen/LandingScreen";
 import LandingPage from "./pages/LandingPage";
 import "./App.css";
+import BrPage from "./components/BrPage/BrPage";
 import Text from "./components/LandingScreen/CheSTA_text";
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
         {/* <Student_profile/> */}
         {/* <Student_profile/> */}
         {/* <About></About> */}
-        <LandingPage></LandingPage>
+        {/* <LandingPage></LandingPage> */}
+        <BrPage></BrPage>
     </div>
   );
 }

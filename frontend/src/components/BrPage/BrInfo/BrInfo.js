@@ -3,7 +3,7 @@ import './BrInfo.css';
 
 
 const BrInfo = (props) => {
-    return (<div className='mainContainer'>
+    return (<div className='BRContainer'>
         <div className='imageContainer'>
             <img src={props.brDetails.image} alt='Student_photo' className='brImage' />
         </div>
