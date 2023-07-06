@@ -6,6 +6,7 @@ import './Gallery.css';
 
 const Gallery = () => {
     return (<div>
+        <div className='GalleryBody'>
         <Curtain />
         <div className='midSection'>
             <div className='headerGallery'>
@@ -24,6 +25,7 @@ const Gallery = () => {
                 <div className='footerTextB'>No, this isn’t it.</div>
                 <div className='footerTextS'> Memories know no bounds.</div>
             </div>
+        </div>
         </div>
         <Footer />
     </div>)
