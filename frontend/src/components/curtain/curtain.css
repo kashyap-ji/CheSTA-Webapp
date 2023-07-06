@@ -1,0 +1,44 @@
+.curtain{
+    display: flex;
+    flex-direction: column;
+    background-color:#071336;
+    gap:3em;
+    padding-bottom: 5em;
+    border-bottom-left-radius: 4em;
+    border-bottom-right-radius: 4em;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0));
+    box-shadow: 0px 2em 3em -1px rgba(0, 0, 0, 1);
+}
+.curtainContainer {
+    display: flex;
+    padding-top: 4em;
+    gap: 25vw;
+    justify-content: space-evenly;
+    align-items: left;
+  }
+  .curtainLogoContainer {
+    display: flex;
+    justify-content: left;
+    gap: 1em;
+    flex-direction: row;
+  }
+  
+  .LandingPage-Buttons:active,
+.LandingPage-Buttons:focus {
+  background-color: #5B8FB9;
+  box-shadow: 0 0 10em 10px #13B7A5;
+}
+
+.LandingPage-Buttons::before {
+  border: none;
+  border-radius: 25px; /* Half of the button's height */
+  box-shadow: 0 0 10em 40px #13B7A5;
+}
+.LandingPage-Buttons:hover{
+  box-shadow: 0 0 10em 20px #13B7A5;
+}
+
+.ButtonsGroupCurtain,.oval-button{
+  background-color:#071336;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0));
+}

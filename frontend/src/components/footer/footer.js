@@ -1,9 +1,18 @@
 import MessageUs from "./message";
+import QuickLinks from "./QuickLinks";
+import Contact from "./Contact";
+import Logo from "./image";
+import './footer.css';
 
-function Footer(){
+function Footer() {
 
-    return(
-        <MessageUs/>
+    return (
+        <div className="footer">
+            <Logo />
+            <QuickLinks />
+            <Contact />
+            <MessageUs />
+        </div>
     )
 }
 export default Footer;

@@ -1,0 +1,67 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    width: 385px;
+    height: 246px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid rgba(19, 183, 164, 0.383);
+    ;
+    transition: 0.65s;
+}
+
+.mainContainer:hover {
+    box-shadow: 0px 25px 45px black;
+    transform: translateY(-10px);
+
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    height: 100%;
+    width: 50%;
+}
+
+.brImage {
+    width: 129px;
+    height: 129px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    left: -45px;
+    position: relative;
+}
+
+.nameSection p {
+    background: inherit;
+}
+
+.name {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 83px;
+    width: 185px;
+}
+
+.contactDetails {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 27.5px;
+}
