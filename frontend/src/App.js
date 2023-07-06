@@ -7,18 +7,19 @@ import LandingPage from "./pages/LandingPage";
 import "./App.css";
 import BrPage from "./components/BrPage/BrPage";
 import Text from "./components/LandingScreen/CheSTA_text";
-
+import Gallery from "./pages/Gallery/Gallery";
 function App() {
   return (
     <div>
-        {/* <LandingScreen></LandingScreen> */}
-        {/* <Footer /> */}
-        {/* <Curtain></Curtain> */}
-        {/* <Student_profile/> */}
-        {/* <Student_profile/> */}
-        {/* <About></About> */}
-        {/* <LandingPage></LandingPage> */}
-        <BrPage></BrPage>
+      {/* <LandingScreen></LandingScreen> */}
+      {/* <Footer /> */}
+      {/* <Curtain></Curtain> */}
+      {/* <Student_profile/> */}
+      {/* <Student_profile/> */}
+      {/* <About></About> */}
+      {/* <LandingPage></LandingPage> */}
+      {/* <BrPage></BrPage> */}
+      <Gallery />
     </div>
   );
 }
