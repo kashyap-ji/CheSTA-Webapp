@@ -1,0 +1,42 @@
+.mainPage {
+    background-image: url('./images/BG\ Image.png');
+}
+
+
+.batchYear {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.allBrInfo {
+    padding: 92px 240px 161px 188px;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.brInfoByYear {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.bulletBatch {
+    width: 18px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #837575;
+}
+
+.batchDisplay {
+    display: flex;
+    align-items: center;
+    gap: 106px;
+}

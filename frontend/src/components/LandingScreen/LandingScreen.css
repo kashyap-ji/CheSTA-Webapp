@@ -47,12 +47,15 @@
 .HeaderMiddleBlock{
   width: 80vw;
   display: flex;
-  /* justify-content: space-around; */
-  gap:10vw;
-  position: relative;
-  bottom:320px;
-  padding-left: 8vw;
-  padding-right: 1vw;
+  justify-content: left;
+  gap: 2em;
+  height:105px;
+  flex-direction: row;
+}
+
+.HeaderLogos {
+  height: 90px;
+
 }
 
 .ChestaTitle {
@@ -75,7 +78,6 @@
 
 .Buttonsgroup {
   display: flex;
-  justify-content: space-evenly;
   position: relative;
   bottom:10vh;
   gap:6vw;

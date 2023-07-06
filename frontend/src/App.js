@@ -10,14 +10,13 @@ import Text from "./components/LandingScreen/CheSTA_text";
 function App() {
   return (
     <div>
-      {/* <Text></Text> */}
-      <LandingScreen></LandingScreen>
-      {/* <Footer /> */}
-      {/* <Curtain></Curtain> */}
-      {/* <Student_profile/> */}
-      {/* <Student_profile/> */}
-      {/* <About></About> */}
-      {/* <LandingPage></LandingPage> */}
+        {/* <LandingScreen></LandingScreen> */}
+        {/* <Footer /> */}
+        {/* <Curtain></Curtain> */}
+        {/* <Student_profile/> */}
+        {/* <Student_profile/> */}
+        {/* <About></About> */}
+        <LandingPage></LandingPage>
     </div>
   );
 }
