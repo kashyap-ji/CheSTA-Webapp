@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Slab&display=swap');
 
-body{
+body {
   /* header Body*/
   background-color: #010922;
 }
@@ -22,7 +22,7 @@ body{
   display: flex;
   justify-content: left;
   gap: 2em;
-  height:105px;
+  height: 105px;
   flex-direction: row;
 }
 
@@ -53,13 +53,13 @@ body{
 
 .Buttonsgroup {
   display: flex;
-  justify-content: space-evenly;
   position: relative;
-  left:-4vw;
-  gap:6vw;
+  left: -4vw;
+  gap: 6vw;
 }
-.chestaLogo{
+
+.chestaLogo {
   height: 140px;
   position: relative;
-  top:-30px;
+  top: -30px;
 }
