@@ -22,19 +22,18 @@
     gap: 1em;
     flex-direction: row;
   }
-  
-  .LandingPage-Buttons:active,
-.LandingPage-Buttons:focus {
-  background-color: #5B8FB9;
-  box-shadow: 0 0 10em 20px #13B7A5;
+/* .ButtonsGroupCurtain,.oval-button{
+  background-color:#071336;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0));
+}  */
+.ButtonsGroupCurtain{
+  padding-left: 12vw;
+  padding-right: 12vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
-.LandingPage-Buttons::before {
-    border: none;
-    border-radius: 25px; /* Half of the button's height */
-    box-shadow: 0 0 10em 40px #13B7A5;
-}
-.LandingPage-Buttons.active{
-    background-color: #5B8FB9;
-  box-shadow: 0 0 10em 20px #13B7A5;
+.HeaderLogos{
+  width: 90px;
+  height: 90px;
 }

@@ -9,7 +9,7 @@ To make a contribution, clone the project locally by running these command in te
 
 ```bash
   git clone git@github.com:Anand-shreya/CheSTA-Webapp.git
-  cd cheSTA Webapp
+  cd cheSTA-Webapp
   npm install
 ```
     

@@ -3,14 +3,14 @@ import QuickLinks from "./QuickLinks";
 import Contact from "./Contact";
 import Logo from "./image";
 
-function Footer(){
+function Footer() {
 
-    return(
+    return (
         <div className="footer">
-        <Logo/>
-        <QuickLinks/>
-        <Contact/>
-        <MessageUs/>
+            <Logo />
+            <QuickLinks />
+            <Contact />
+            <MessageUs />
         </div>
     )
 }
