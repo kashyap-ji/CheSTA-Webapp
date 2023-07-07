@@ -4,7 +4,7 @@ import './BrInfo.css';
 
 const BrInfo = (props) => {
     return (<div className='BRContainer'>
-        <div className='imageContainer'>
+        <div className='imageContainer' style={{width: "10vw"}} >
             <img src={props.brDetails.image} alt='Student_photo' className='brImage' />
         </div>
         <div className='infoContainer'>
@@ -13,8 +13,8 @@ const BrInfo = (props) => {
             </div>
             <div className='contactSection'>
                 <p className='contactDetails'>Contact</p>
-                <p className='contactDetails'>{props.brDetails.phone}</p>
-                <p className='contactDetails'>{props.brDetails.email}</p>
+                <p className='contactDetails' style={{fontStyle: "normal",fontSize: "1vw"}} >{props.brDetails.phone}</p>
+                <p className='contactDetails' style={{fontStyle: "normal",fontSize: "1vw"}} >{props.brDetails.email}</p>
             </div>
         </div>
     </div>)
